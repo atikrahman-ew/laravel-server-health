@@ -1,0 +1,38 @@
+{
+    "name": "atikrahman/laravel-server-health",
+    "description": "This package generates url to check laravel hosted os and server information as well as watch for high alerts",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "atik",
+            "email": "atikrahman.ew@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "laravel/framework": "^5.4"
+    },
+    "require-dev": {
+        "../../../vendor/phpunit/phpunit": "^9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "atikrahman\\ServerHealth\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "atikrahman\\ServerHealth\\Tests\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "atikrahman\\ServerHealth\\Providers\\MonitorServiceProvider"
+            ]
+        }
+    }
+}
