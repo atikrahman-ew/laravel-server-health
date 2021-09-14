@@ -63,7 +63,7 @@ If you discover any security related issues, please email atikrahman.ew@gmail.co
 
 ## Credits
 
-- [Ekshop][link-author]
+- [Atikur Rahman][link-author]
 - [All Contributors][link-contributors]
 
 ## License
